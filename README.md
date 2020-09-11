@@ -3,9 +3,9 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 
 플렛폼 별 사이트로 이동하여 SDK 및 예제 소스를 다운받을 수 있습니다.
 
-- [Android SDK 사이트](https://github.com/mafin-global/nas-offerwall-android)
-- [iOS SDK 사이트](https://github.com/mafin-global/nas-offerwall-ios)
-- [Unity SDK 사이트](https://github.com/mafin-global/nas-offerwall-unity) 
+- [Android SDK](https://github.com/mafin-global/nas-offerwall-android)
+- [iOS SDK](https://github.com/mafin-global/nas-offerwall-ios)
+- [Unity SDK](https://github.com/mafin-global/nas-offerwall-unity) 
 
 ## 목차
 - [👤️⠀개발자 등록](#%EF%B8%8F-개발자-등록)
