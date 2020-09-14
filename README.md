@@ -12,6 +12,7 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 - [iOS 14용 SDK](https://github.com/mafin-global/nas-offerwall-ios/tree/feature/ios14) ***(iOS 14 테스트를 위한 베타 버전 SDK)***
 
 ## 목차
+- [📝⠀업데이트](#-업데이트)
 - [👤️⠀개발자 등록](#%EF%B8%8F-개발자-등록)
 - [🎲⠀매체 등록](#-매체-등록)
     - [적립금 관리 서버](#적립금-관리-서버)
@@ -20,6 +21,27 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
     - [콜백 URL 등록](#콜백-url-등록-개발자-서버에서-적립금-관리-시-사용) _(개발자 서버에서 적립금 관리 시 사용)_
     - [아이템 등록](#아이템-등록-nas-서버에서-적립금-관리-시-사용) _(NAS 서버에서 적립금 관리 시 사용)_
 - [🚀⠀SDK 연동](#-sdk-연동)
+
+## 📝 업데이트
+
+### `iOS 업데이트`
+- [`2020년 3월 31일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-3월-31일)
+    - 통신 관련 버그 수정
+- [`2020년 1월 30일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-1월-30일---내장-ui) - _내장 UI_
+    - foreground 시 새로고침되지 않는 버그 수정
+- [`2020년 1월 28일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-1월-28일---내장-ui) - _내장 UI_
+    - 환경에 따라 오퍼월이 보이지 않는 현상 수정
+- [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
+
+### `Android 업데이트`
+- [`2020년 6월 26일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-6월-26일)
+    - 테스트 모드와 관련된 버그 수정
+- [`2019년 10월 14일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2019년-10월-14일)
+    - Android Q(10) 대응 버그 수정
+- [`2019년 9월 19일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2019년-9월-19일)
+    - Android Q(10) 대응
+    - 초기화 완료 이벤트 추가 (NASWall.setOnInitListener)
+- [`전체 업데이트 목록 보기`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md)
 
 ## 👤️ 개발자 등록
 NAS 오퍼월 연동을 위해서는 먼저 개발자 등록을 해야합니다.
