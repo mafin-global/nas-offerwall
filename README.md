@@ -1,4 +1,4 @@
-# 📖 NAS 오퍼월 적용 가이드
+# 📖 NAS 오퍼월 연동 가이드
 NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 
 플렛폼 별 사이트로 이동하여 SDK 및 예제 소스를 다운받을 수 있습니다.
@@ -6,6 +6,8 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 - [Android SDK](https://github.com/mafin-global/nas-offerwall-android)
 - [iOS SDK](https://github.com/mafin-global/nas-offerwall-ios)
 - [Unity SDK](https://github.com/mafin-global/nas-offerwall-unity)
+
+> Web 에서 오퍼월을 제공하시려면, [Web 오퍼월 연동 가이드](https://github.com/mafin-global/nas-web-offerwall) 문서를 확인해주시기 바랍니다.
 
 ## 목차
 - [📝⠀업데이트](#-업데이트)
