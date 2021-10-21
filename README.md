@@ -34,6 +34,8 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android 업데이트`
+- [`2021년 10월 21일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-10월-21일)
+  - IMEI 수집 제거
 - [`2021년 6월 23일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-6월-23일)
   - 사용자 휴대폰번호 수집 제거
 - [`2020년 10월 5일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-10월-5일)
