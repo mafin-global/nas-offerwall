@@ -34,6 +34,8 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android 업데이트`
+- [`2023년 6월 7일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2023년-6월-7일)
+  - 내부 버그 수정
 - [`2023년 5월 24일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2023년-5월-24일)
   - 신규 IP 정책 반영을 위한 wi-fi 상태 체크 기능 추가
   - (필수) ACCESS_NETWORK_STATE 권한 추가 필요
