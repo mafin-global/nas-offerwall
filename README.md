@@ -23,14 +23,11 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 ## 📝 업데이트
 
 ### `iOS 업데이트`
-- [`2020년 9월 16일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-9월-16일)
-    - iOS 14 지원을 위한 SDK 배포
-- [`2020년 3월 31일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-3월-31일)
-    - 통신 관련 버그 수정
-- [`2020년 1월 30일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-1월-30일---내장-ui) - _내장 UI_
-    - foreground 시 새로고침되지 않는 버그 수정
-- [`2020년 1월 28일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-1월-28일---내장-ui) - _내장 UI_
-    - 환경에 따라 오퍼월이 보이지 않는 현상 수정
+- `v2.0.0`
+  - Major 버전 업데이트로 인해 연동 방식의 대대적인 변경이 있습니다.
+  - 오퍼월 UI가 새롭게 변경되었습니다.
+  - Swift 기반의 새로운 예제 프로그램이 제공됩니다.
+  - 변경된 자세한 연동 방법은 개발 가이드 문서를 참고해주세요.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android 업데이트`
