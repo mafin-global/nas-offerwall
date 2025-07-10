@@ -5,6 +5,7 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 
 - [Android SDK](https://github.com/mafin-global/nas-offerwall-android)
 - [iOS SDK](https://github.com/mafin-global/nas-offerwall-ios)
+- [React Native SDK](https://github.com/mafin-global/nas-offerwall-react-native)
 - [Unity SDK](https://github.com/mafin-global/nas-offerwall-unity)
 
 > Web 에서 오퍼월을 제공하시려면, [Web 오퍼월 연동 가이드](https://github.com/mafin-global/nas-web-offerwall) 문서를 확인해주시기 바랍니다.
@@ -22,7 +23,9 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 
 ## 📝 업데이트
 
-### `iOS 업데이트`
+### `iOS SDK 업데이트`
+- `v2.0.2`
+  - 특정 상황에서 앱이 종료되는 오류가 수정되었습니다.
 - `v2.0.1`
   - 특정 상황에서 광고 참여 완료가 정상적으로 되지 않는 오류가 수정되었습니다.
 - `v2.0.0`
@@ -32,31 +35,23 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
   - 변경된 자세한 연동 방법은 개발 가이드 문서를 참고해주세요.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
-### `Android 업데이트`
-- [`2023년 6월 7일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2023년-6월-7일)
-  - 내부 버그 수정
-- [`2023년 5월 24일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2023년-5월-24일)
-  - 신규 IP 정책 반영을 위한 wi-fi 상태 체크 기능 추가
-  - (필수) ACCESS_NETWORK_STATE 권한 추가 필요
-  - (사용자 정의 UI) -9968, -9969 오류코드 추가
-- [`2022년 11월 22일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2022년-11월-22일)
-  - Android SDK 33 대응
-- [`2021년 11월 12일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-11월-12일)
-  - 일부폰에서 광고 참여 시 -99992 오류 발생하는 문제 수정
-- [`2021년 10월 21일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-10월-21일)
-  - IMEI 수집 제거
-- [`2021년 6월 23일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-6월-23일)
-  - 사용자 휴대폰번호 수집 제거
-- [`2020년 10월 5일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-10월-5일)
-    - USER_DATA 값 URL Encode 처리 (+ 문자 등이 포함되어 있을 때, 적립 콜백 호출 시 ud 값이 잘못 반환되는 문제 수정)
-- [`2020년 6월 26일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-6월-26일)
-    - 테스트 모드와 관련된 버그 수정
-- [`2019년 10월 14일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2019년-10월-14일)
-    - Android Q(10) 대응 버그 수정
-- [`2019년 9월 19일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2019년-9월-19일)
-    - Android Q(10) 대응
-    - 초기화 완료 이벤트 추가 (NASWall.setOnInitListener)
-- [`전체 업데이트 목록 보기`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md)
+### `Android SDK 업데이트`
+- `v2.0.1`
+  - 버그가 수정되었습니다.
+- `v2.0.0`
+  - Major 버전 업데이트로 인해 연동 방식의 대대적인 변경이 있습니다.
+  - Kotlin 기반의 코드로 변경되었습니다.
+  - Kotlin Compose 기반의 새로운 예제 프로그램이 제공됩니다.
+  - 오퍼월 UI가 새롭게 변경되었습니다.
+  - 변경된 자세한 연동 방법은 개발 가이드 문서를 참고해주세요.
+- [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md)
+
+### `React Native SDK 업데이트`
+- `v1.0.1`
+  - 버그가 수정되었습니다.
+- `v1.0.0`
+  - 최초 배포
+- [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-react-native/blob/master/docs/Update.md)
 
 ## 👤️ 개발자 등록
 NAS 오퍼월 연동을 위해서는 먼저 개발자 등록을 해야합니다.
@@ -155,11 +150,15 @@ http://server.kr/callback.asp?sid=[SEQ_ID]&ud=[USER_DATA]&p=[PRICE]&r=[REWARD]&a
 플렛폼 별 사이트로 이동하여 가이드를 참고해주세요. 
 
 - Android
-    - [내장 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Guide.Embed.md)
-    - [개발자 정의 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Guide.Custom.md)
-    
+  - [내장 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Guide.Embed.md)
+  - [개발자 정의 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Guide.Custom.md)
+
 - iOS
-    - [내장 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Guide.Embed.md)
-    - [개발자 정의 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Guide.Custom.md)
-    
+  - [내장 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Guide.Embed.md)
+  - [개발자 정의 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Guide.Custom.md)
+
+- React Native
+  - [내장 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-react-native/blob/master/docs/Guide.Embed.md)
+  - [개발자 정의 UI 연동 가이드](https://github.com/mafin-global/nas-offerwall-react-native/blob/master/docs/Guide.Custom.md)
+
 - [Unity 연동 가이드](https://github.com/mafin-global/nas-offerwall-unity)
