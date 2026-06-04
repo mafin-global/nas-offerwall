@@ -36,6 +36,8 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android SDK 업데이트`
+- `v2.0.8`
+  - 특정 환경 지원을 위해 수정되었습니다. (일반적인 환경은 업데이트 불필요)
 - `v2.0.7`
   - 일부 환경에서 SDK 초기화 시 비정상적으로 종료되는 문제가 수정되었습니다.
 - `v2.0.6`
