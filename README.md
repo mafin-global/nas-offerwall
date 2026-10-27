@@ -61,6 +61,10 @@ NAS 오퍼월은 `Android`, `iOS`, `Unity` 를 지원합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md)
 
 ### `React Native SDK 업데이트`
+- `v1.0.4`
+  - Android SDK v2.0.8 버전이 적용되었습니다.
+- `v1.0.2`
+  - 초기화 함수(개발자 서버에서 적립금 관리) 호출 시 앱이 종료되는 버그가 수정되었습니다.
 - `v1.0.1`
   - 버그가 수정되었습니다.
 - `v1.0.0`
